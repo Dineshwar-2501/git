@@ -19,4 +19,4 @@
 
 7. git commit -m "heck"
 
-8. git push
+8. git push -f
