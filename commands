@@ -1,4 +1,5 @@
 👉Git Commands :
+git init
 * git remote add origin "url"
 * git push --set-upstram origin master
 * git --version
