@@ -1,17 +1,13 @@
 👉Git Commands :
 ** OPEN THE FOLDER WHER GIT SHOULD BE CONNECTED **
 ** LOCAL **
-Initialize Git:git inti 
-Add Files:git add . (or) git add file1 file2 ...
-Commit Changes: git commit -m "Initial commit" 
-Set Up Remote:git remote add origin <remote_repository_URL>
-Push Changes to Remote :git push -u origin master
-
-GLOBAL
-git clone <repository_URL>
-cd <repository_name>
-
-GENERAL
+Initialize Git                                      :        git inti 
+Add Files                                           :        git add . (or) git add file1 file2 ...
+Commit Changes                                      :        git commit -m "Initial commit" 
+Set Up Remote                                       :        git remote add origin <remote_repository_URL>
+Push Changes to Remote                              :        git push -u origin master
+Clone a repository                                  :        git clone <repository_URL>
+Clone a repository of a certain file                :        git clone <repository_URL> <directory_name>
 Check Repository Status                             :        git status
 Commit Changes                                      :        git commit -m "Commit message"
 View Commit History                                 :        git log
@@ -25,24 +21,12 @@ Add a Remote Repository                             :        git remote add <rem
 Undo Local Changes (before staging)                 :        git checkout -- <file_name>
 Undo Local Changes (after staging)                  :        git reset HEAD <file_name>|&|git checkout -- <file_name>
 Undo Last Commit (discard changes)                  :        git reset --hard HEAD~1
+Add a file which inside a file                      :        git submodule add <url> <file_inside_name>
+To Remove Files                                     :        git rm <file>
+To Move or Rename Files                             :        git mv <old_path> <new_path>
 
+CONFIG:-
+git config --global user.name "Your Name"
+git config --global user.email "Your Email"
+git config --global init.defaultBranch main
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-EDITING
