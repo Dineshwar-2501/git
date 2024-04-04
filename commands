@@ -1,8 +1,48 @@
 👉Git Commands :
-LOCAL 
-git inti 
-"anek"
+** OPEN THE FOLDER WHER GIT SHOULD BE CONNECTED **
+** LOCAL **
+Initialize Git:git inti 
+Add Files:git add . (or) git add file1 file2 ...
+Commit Changes: git commit -m "Initial commit" 
+Set Up Remote:git remote add origin <remote_repository_URL>
+Push Changes to Remote :git push -u origin master
 
 GLOBAL
+git clone <repository_URL>
+cd <repository_name>
+
 GENERAL
+Check Repository Status                             :        git status
+Commit Changes                                      :        git commit -m "Commit message"
+View Commit History                                 :        git log
+Create a New Branch                                 :        git branch <branch_name>
+Switch to a Branch                                  :        git checkout <branch_name>
+Merge Changes from One Branch to Another            :        git merge <branch_name>
+Fetch Changes from a Remote Repository              :        git fetch <remote_name>
+Pull Changes from a Remote Repository               :        git pull <remote_name> <branch_name>
+Push Changes to a Remote Repository                 :        git push <remote_name> <branch_name>
+Add a Remote Repository                             :        git remote add <remote_name> <repository_URL>
+Undo Local Changes (before staging)                 :        git checkout -- <file_name>
+Undo Local Changes (after staging)                  :        git reset HEAD <file_name>|&|git checkout -- <file_name>
+Undo Last Commit (discard changes)                  :        git reset --hard HEAD~1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 EDITING
