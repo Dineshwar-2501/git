@@ -1,19 +1,8 @@
 👉Git Commands :
-git init
-* git remote add origin "url"
-* git push --set-upstram origin master
-* git --version
-* git config --global user.email "you@example.com"
-* git config --global user.name "Your Name"
-* ls
-* mkdir "directoryname"
-* git status 
-* git add "file path"
-* git add .
-* git remote add origin "url from git hub repository"
-* git checkout "branch name"
-* git rm "file name"
-* git commit -m'commit message"
-* git push
-* git push --set-upstram origin master
-* git --version 
+LOCAL 
+git inti 
+"anek"
+
+GLOBAL
+GENERAL
+EDITING
