@@ -5,6 +5,7 @@ Initialize Git                                      :        git inti
 Add Files                                           :        git add . (or) git add file1 file2 ...
 Commit Changes                                      :        git commit -m "Initial commit" 
 Set Up Remote                                       :        git remote add origin <remote_repository_URL>
+Remove the remote                                   :        git remote remove origin
 Push Changes to Remote                              :        git push -u origin master
 Clone a repository                                  :        git clone <repository_URL>
 Clone a repository of a certain file                :        git clone <repository_URL> <directory_name>
